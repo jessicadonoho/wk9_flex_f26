@@ -1,0 +1,36 @@
+/* ===== Base styles: no need to edit ===== */
+*, *::before, *::after{ box-sizing: border-box; }
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background: #f5f5f5;
+  color: #222;
+}
+
+section { margin-bottom: 2rem; }
+
+.card {
+  background: white;
+  border: 3px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.card h3 { margin-top: 0; }
+
+.cards-grid .card { border-color: #2a6fdb; } /* blue = grid */
+.cards-flex .card { border-color: #d6336c; } /* pink = flex */
+
+/* Comment this out for Part 3 */
+.extra {display:none;}
+
+/*Your code goes here!*/
+
+/*First, style the .cards-grid class*/
+
+/*Add a media query and style the grid to have three columns*/
+
+/*Style the .cards-flex class*/
+
+/*Add another media query and style it to have two rows*/
